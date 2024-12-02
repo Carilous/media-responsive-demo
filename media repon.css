@@ -1,0 +1,36 @@
+body{margin: 0px;background-color:rgb(228,230,225); font-family: cursive;}
+header{display: flex;justify-content: space-between;
+height: 100px;align-items: center;}
+.logo{margin-left: 50px;margin-right: 100px;color: white;}
+.navbar{
+    display: none;
+    img{width: 30px;margin-right: 80px;}
+}
+.mylogonav{display: flex;}
+.navigation{
+    a{margin:0px 10px;text-decoration: none;color: black;}
+}
+.btlogin{margin-right: 80px;
+.button{border-radius: 20px;padding: 10px;width: 100px;}
+a{text-decoration: none;color: black;}
+}
+.button{margin-left: 30px;}
+.logo{margin-left: 20px;}
+.imagetext{display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;}
+.imagebox{
+    img{width: 400px;}
+}
+.images{display: flex;justify-content: space-around;color: black;}
+.Textbox{width: 450px;
+    h1{font-size: 50px;}
+    .button{border-radius: 50px;color: white;background-color: black;padding: 10px;width: 200px;}}
+
+@media (max-width:800px){
+    .navbar{display: block;}
+    .navigation{display: none;}
+    .btlogin{display: none;}
+    .imagetext{flex-direction: column-reverse;}
+    .Textbox{text-align: center;
+    h1{font-size: 40px;}}
+}
+  
